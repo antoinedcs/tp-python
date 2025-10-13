@@ -1,0 +1,20 @@
+a=()
+b=()
+AbscisseDeA=float(input("Insérez la valeur de l'abscisse de A"))
+OrdoneeDeA=float(input("Insérez la valeur de l'ordonee de A"))
+AbscisseDeB=float(input("Insérez la valeur de l'abscisse de B"))
+OrdoneeDeB=float(input("Insérez la valeur de l'ordonee de B"))
+print(AbscisseDeA)
+print(OrdoneeDeB)
+print(AbscisseDeB)
+print(OrdoneeDeB)
+print(a)
+print(b)
+a=OrdoneeDeB-OrdoneeDeA
+print(a)
+a=a/(AbscisseDeB-AbscisseDeA)
+print(a)
+b=OrdoneeDeB-a
+print(b)
+b=b*AbscisseDeA
+print(b)
